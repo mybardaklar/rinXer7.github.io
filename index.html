@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage | Pug.js</title>
+  <meta name="theme-color" content="#000">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/pxlayer.min.css">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+</head>
+<body :class="{ 'is-any-layer-active': layer.items.mainLayer === 2 }">
+  <div class="pxl-bottombar">
+    <button class="pxl-bottombar__big">
+      <div class="pxl-bottombar__big__icon">
+        <svg class="icon icon-home icon-normal">
+          <use xlink:href="./svg/sprite.svg#home"></use>
+        </svg>
+        <svg class="icon icon-home-filled icon-filled">
+          <use xlink:href="./svg/sprite.svg#home-filled"></use>
+        </svg>
+      </div>
+    </button>
+    <div class="pxl-bottombar__wrapper">
+      <button class="pxl-bottombar__item" href="#">
+        <div class="pxl-bottombar__item__icon">
+          <svg class="icon icon-home icon-normal">
+            <use xlink:href="./svg/sprite.svg#home"></use>
+          </svg>
+          <svg class="icon icon-home-filled icon-filled">
+            <use xlink:href="./svg/sprite.svg#home-filled"></use>
+          </svg>
+        </div>
+        <div class="pxl-bottombar__item__label"><span>Home</span></div>
+      </button>
+      <button class="pxl-bottombar__item active" href="#">
+        <div class="pxl-bottombar__item__icon"><span class="pxl-bottombar__item__notifier">0</span>
+          <svg class="icon icon-shopping-bag icon-normal">
+            <use xlink:href="./svg/sprite.svg#shopping-bag"></use>
+          </svg>
+          <svg class="icon icon-shopping-bag-filled icon-filled">
+            <use xlink:href="./svg/sprite.svg#shopping-bag-filled"></use>
+          </svg>
+        </div>
+        <div class="pxl-bottombar__item__label"><span>Cart</span></div>
+      </button>
+      <div class="pxl-bottombar__seperator"></div>
+      <button class="pxl-bottombar__item" href="#">
+        <div class="pxl-bottombar__item__icon">
+          <svg class="icon icon-settings icon-normal">
+            <use xlink:href="./svg/sprite.svg#settings"></use>
+          </svg>
+          <svg class="icon icon-settings-filled icon-filled">
+            <use xlink:href="./svg/sprite.svg#settings-filled"></use>
+          </svg>
+        </div>
+        <div class="pxl-bottombar__item__label"><span>Settings</span></div>
+      </button>
+      <button class="pxl-bottombar__item" href="#">
+        <div class="pxl-bottombar__item__icon"><span class="pxl-bottombar__item__notifier">0</span>
+          <svg class="icon icon-heart icon-normal">
+            <use xlink:href="./svg/sprite.svg#heart"></use>
+          </svg>
+          <svg class="icon icon-heart-filled icon-filled">
+            <use xlink:href="./svg/sprite.svg#heart-filled"></use>
+          </svg>
+        </div>
+        <div class="pxl-bottombar__item__label"><span>Likes</span></div>
+      </button>
+    </div>
+  </div>
+  <section class="main-layer">
+    <!-- nav.main-navbar -->
+    <nav class="main-navbar"></nav>
+    <!-- ## nav.main-navbar -->
+    <!-- main.main-content -->
+    <main class="main-content">
+      <h1>Erol BARDAKLAR</h1>
+      <div class="pxl-tabbar">
+        <div class="pxl-tabbar-triggers"><a class="pxl-tabbar-trigger" href="#">
+            <div class="pxl-tabbar-trigger-icon">
+              <svg class="icon icon-home">
+                <use xlink:href="./svg/sprite.svg#home"></use>
+              </svg>
+              <svg class="icon icon-home-filled">
+                <use xlink:href="./svg/sprite.svg#home-filled"></use>
+              </svg>
+            </div>
+          </a><a class="pxl-tabbar-trigger" href="#">
+            <div class="pxl-tabbar-trigger-icon">
+              <svg class="icon icon-shopping-bag">
+                <use xlink:href="./svg/sprite.svg#shopping-bag"></use>
+              </svg>
+              <svg class="icon icon-shopping-bag-filled">
+                <use xlink:href="./svg/sprite.svg#shopping-bag-filled"></use>
+              </svg>
+            </div>
+          </a><a class="pxl-tabbar-trigger" href="#">
+            <div class="pxl-tabbar-trigger-icon">
+              <svg class="icon icon-settings">
+                <use xlink:href="./svg/sprite.svg#settings"></use>
+              </svg>
+              <svg class="icon icon-settings-filled">
+                <use xlink:href="./svg/sprite.svg#settings-filled"></use>
+              </svg>
+            </div>
+          </a></div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum voluptate illo ex reprehenderit iste perferendis laborum saepe quidem non iusto autem aliquam dolores, fugit asperiores. Asperiores eligendi necessitatibus aperiam.</p>
+      <div class="boxes">
+        <div class="box black-box-1"></div>
+        <div class="box black-box-2"></div>
+        <div class="box black-box-3"></div>
+        <div class="box black-box-4"></div>
+        <div class="box black-box-5"></div>
+        <div class="box black-box-6"></div>
+        <div class="box black-box-7"></div>
+        <div class="box black-box-8"></div>
+        <div class="box black-box-9"></div>
+      </div>
+      <div class="boxes">
+        <div class="box color-1-box-1"></div>
+        <div class="box color-1-box-2"></div>
+        <div class="box color-1-box-3"></div>
+        <div class="box color-1-box-4"></div>
+        <div class="box color-1-box-5"></div>
+        <div class="box color-1-box-6"></div>
+        <div class="box color-1-box-7"></div>
+        <div class="box color-1-box-8"></div>
+        <div class="box color-1-box-9"></div>
+      </div>
+      <div class="boxes">
+        <div class="box color-2-box-1"></div>
+        <div class="box color-2-box-2"></div>
+        <div class="box color-2-box-3"></div>
+        <div class="box color-2-box-4"></div>
+        <div class="box color-2-box-5"></div>
+        <div class="box color-2-box-6"></div>
+        <div class="box color-2-box-7"></div>
+        <div class="box color-2-box-8"></div>
+        <div class="box color-2-box-9"></div>
+      </div>
+      <div class="boxes">
+        <div class="box color-3-box-1"></div>
+        <div class="box color-3-box-2"></div>
+        <div class="box color-3-box-3"></div>
+        <div class="box color-3-box-4"></div>
+        <div class="box color-3-box-5"></div>
+        <div class="box color-3-box-6"></div>
+        <div class="box color-3-box-7"></div>
+        <div class="box color-3-box-8"></div>
+        <div class="box color-3-box-9"></div>
+      </div>
+    </main>
+    <!-- ## main.main-content -->
+    <!-- footer.main-footer -->
+    <footer class="main-footer"></footer>
+    <!-- ## footer.main-footer -->
+  </section>
+  <!-- scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+  <script src="js/main.min.js" defer></script>
+  <!-- ## scripts-->
+</body>
+</html>
